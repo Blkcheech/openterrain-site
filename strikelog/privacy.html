@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — StrikeLog</title>
+  <meta name="description" content="Privacy Policy for the StrikeLog iOS app by OpenTerrain.">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    body { background: #0f1f30; }
+    .nav { background: rgba(15,31,48,0.92); border-color: #1e3550; }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <div class="nav-logo-icon" style="background:#1b3a5c; font-size:16px;">🎣</div>
+      <span style="color:var(--text-muted); font-weight:400;">OpenTerrain</span>
+      <span style="color:var(--text-dim); margin:0 6px;">/</span>
+      StrikeLog
+    </a>
+  </div>
+</nav>
+
+<div class="policy">
+  <a href="/strikelog/" class="policy-back">← Back to StrikeLog</a>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: April 12, 2026</p>
+
+  <h2>Overview</h2>
+  <p>StrikeLog ("the App", "we", "us") is a native iOS application developed by OpenTerrain for tracking fishing catches, spots, gear, and statistics. This policy describes what data we collect, how we use it, and your rights as a user.</p>
+  <p>We do not sell your data. We do not use advertising networks. We collect only what is needed to operate the App.</p>
+
+  <h2>What We Collect</h2>
+  <p>When you create an account and use the App, we may collect:</p>
+  <ul>
+    <li><strong>Email address</strong> — used for account creation and sign-in only</li>
+    <li><strong>Fishing data you enter</strong> — bodies of water, fishing spots, catch records, species, measurements, gear, notes, and technique</li>
+    <li><strong>GPS coordinates</strong> — latitude and longitude you choose to save for fishing spots. GPS is only accessed when you explicitly use a location feature while the App is in the foreground. We do not track your location in the background.</li>
+    <li><strong>Catch photos</strong> — photos you optionally attach to catch records, stored in private cloud storage linked to your account</li>
+    <li><strong>Weather snapshot data</strong> — temperature, wind, pressure, cloud cover, and moon phase captured at the time of a catch when you request it</li>
+  </ul>
+
+  <h2>What We Do Not Collect</h2>
+  <ul>
+    <li>We do not collect crash analytics, usage telemetry, or behavioral tracking data</li>
+    <li>We do not access your photo library except when you explicitly choose to attach a photo to a catch</li>
+    <li>We do not track your location in the background at any time</li>
+    <li>We do not collect payment information — the App is sold through the Apple App Store and Apple handles all transactions</li>
+  </ul>
+
+  <h2>How Your Data Is Stored</h2>
+  <p>Your data is stored using Supabase, a secure cloud database platform, with the following protections:</p>
+  <ul>
+    <li>Row-level security ensures your account can only access your own data</li>
+    <li>All connections are encrypted in transit (TLS)</li>
+    <li>Catch photos are stored in private cloud storage — inaccessible without a valid authenticated session</li>
+    <li>Your data is never shared with or sold to third parties</li>
+  </ul>
+  <p>The App also caches data locally on your device in the app's private documents directory to support offline use. This local cache is not accessible to other apps and is removed when you delete the App.</p>
+
+  <h2>Third-Party Services</h2>
+  <table>
+    <thead>
+      <tr><th>Service</th><th>Purpose</th><th>Data Involved</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase</a></td>
+        <td>Database, authentication, and photo storage</td>
+        <td>Email, fishing data, photos</td>
+      </tr>
+      <tr>
+        <td><a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Open-Meteo</a></td>
+        <td>Weather conditions at catch time</td>
+        <td>GPS coordinates only — no personal data</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple MapKit</a></td>
+        <td>Satellite map tiles and navigation</td>
+        <td>Governed by Apple's Privacy Policy</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>We do not use any advertising SDKs, analytics platforms, or social media integrations.</p>
+
+  <h2>Data Deletion</h2>
+  <div class="callout">
+    You can permanently delete your account and all associated data directly inside the App at any time:<br><br>
+    <strong>Settings → Delete Account</strong><br><br>
+    This immediately and permanently deletes your account credentials, all bodies of water, spots, catches, photos, and gear. This action cannot be undone.
+  </div>
+
+  <h2>Children's Privacy</h2>
+  <p>The App is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided personal information through the App, contact us and we will delete it promptly.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this policy from time to time. We will notify users of material changes by updating the "Last updated" date at the top of this page. Continued use of the App after changes are posted constitutes acceptance of the updated policy.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this Privacy Policy? Contact us at <a href="mailto:support@openterrain.app">support@openterrain.app</a>.</p>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">
+      <div class="footer-logo-icon" style="background:#1b3a5c; font-size:13px;">🎣</div>
+      StrikeLog by OpenTerrain
+    </div>
+    <ul class="footer-links">
+      <li><a href="support.html">Support</a></li>
+      <li><a href="/">OpenTerrain</a></li>
+    </ul>
+    <p class="footer-copy">&copy; 2026 OpenTerrain. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
