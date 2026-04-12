@@ -191,10 +191,8 @@ strong { color: var(--text); font-weight: 600; }
   width: 64px;
   height: 64px;
   border-radius: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 30px;
+  display: block;
+  object-fit: cover;
   margin-bottom: 20px;
 }
 .app-card h3 {
