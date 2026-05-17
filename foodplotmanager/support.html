@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — Food Plot Manager</title>
+  <meta name="description" content="Support for the Food Plot Manager iOS app by OpenTerrain.app.">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    body { background: #0f1f30; }
+    .nav { background: rgba(15,31,48,0.92); border-color: #1e3550; }
+    .faq-item { border-bottom: 1px solid #1e3550; padding: 20px 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-q { font-size: 0.95rem; font-weight: 600; color: var(--text); margin-bottom: 8px; }
+    .faq-a { font-size: 0.9rem; color: var(--text-muted); line-height: 1.7; }
+    .contact-card {
+      background: #162840;
+      border: 1px solid #1e3550;
+      border-radius: 16px;
+      padding: 28px 32px;
+      margin-top: 40px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <img src="../img/foodplot-icon.png" width="34" height="34" style="border-radius:9px; object-fit:cover; flex-shrink:0;" alt="Food Plot Manager">
+      <span style="color:var(--text-muted); font-weight:400;">OpenTerrain.app</span>
+      <span style="color:var(--text-dim); margin:0 6px;">/</span>
+      Food Plot Manager
+    </a>
+  </div>
+</nav>
+
+<div class="support-page">
+  <a href="/foodplotmanager/" class="support-back">← Back to Food Plot Manager</a>
+  <h1>Support</h1>
+  <p class="updated">Food Plot Manager for iPhone · Version 1.0</p>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <p class="faq-q">How do I create a food plot?</p>
+    <p class="faq-a">Go to the Plots tab and tap the + button. Give your plot a name, then define its boundary using "Walk the Edge" (GPS tracking as you walk the perimeter) or "Draw on Map" (tap corners on a satellite map). The app automatically calculates your plot's acreage from the boundary.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">How does "Walk the Edge" work?</p>
+    <p class="faq-a">Walk the Edge uses your iPhone's GPS to record your position as you walk the perimeter of your plot. The app waits for an accurate GPS lock before recording starts, filters out noisy readings, and smooths the track into clean boundary points. When you're done, tap "Close Loop" to finish the boundary.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">How accurate is the GPS boundary?</p>
+    <p class="faq-a">The app uses Apple's best-available GPS mode with sensor fusion. It requires 5 consecutive accurate fixes (under 33 feet) before allowing recording, and rejects readings worse than 50 feet during recording. In open field conditions, expect accuracy within 15–30 feet. For best results, walk on a clear day with an unobstructed view of the sky.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">Does the app work without cell service?</p>
+    <p class="faq-a">Yes. All your data is stored locally on your device. GPS boundary tracking, soil sample logging, planting records, and calculations all work without an internet connection. Satellite map tiles may not load without a connection, but you can still use all other features.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">How do I log a soil sample?</p>
+    <p class="faq-a">Navigate to a plot's detail page and tap "Log Soil Sample" in the Soil Samples section. Enter your pH, nutrient values (all optional), soil temperature, lab name, and any notes. Each sample is timestamped so you can track changes over time.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">How does the Lime Calculator use my soil data?</p>
+    <p class="faq-a">When you select a plot in the Lime Calculator, it automatically pulls in the pH from your most recent soil sample for that plot. Combined with the plot's acreage, it calculates how much lime you need per acre and total for your plot based on your soil texture and target pH.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">Can I edit or delete records?</p>
+    <p class="faq-a">Yes. Swipe left on any soil sample, planting, or input record to reveal Edit and Delete buttons. You can also edit a plot by tapping the pencil icon on its detail page. To delete a plot entirely, swipe left on it in the Plots list.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">How do I delete all my data?</p>
+    <p class="faq-a">Go to Settings → Delete All Data. This permanently removes all plots, soil samples, plantings, and input records from your device. This cannot be undone. You can also simply delete the app, which removes all data automatically.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">What seed types are included?</p>
+    <p class="faq-a">The app includes 22 common food plot seed types across legumes, grasses, brassicas, cereals, and forbs — with seeding rates sourced from university extension publications. When logging a planting or using the calculator, pick a seed type and the rate auto-fills.</p>
+  </div>
+
+  <div class="contact-card">
+    <p style="font-size:1.05rem; font-weight:700; color:var(--text); margin-bottom:8px;">Still need help?</p>
+    <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:20px;">We typically respond within one business day.</p>
+    <a href="mailto:support@openterrain.app" class="btn btn-primary" style="background:#4A7C59; color:#fff;">Email Support</a>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">
+      <img src="../img/foodplot-icon.png" width="26" height="26" style="border-radius:7px; object-fit:cover; flex-shrink:0;" alt="Food Plot Manager">
+      Food Plot Manager by OpenTerrain.app
+    </div>
+    <ul class="footer-links">
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="/">OpenTerrain.app</a></li>
+    </ul>
+    <p class="footer-copy">&copy; 2026 OpenTerrain.app. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
